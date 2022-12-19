@@ -8,6 +8,9 @@ public class Main {
         } else {
             bonus = 0;
         }
+        
+        //int bonus = deposit >= 1000 ? deposit / 100 : 0;
+        
         int result = account + deposit + bonus;
 
         System.out.println(result);
