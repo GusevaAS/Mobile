@@ -3,6 +3,7 @@ public class Main {
         int account = 100;
         int deposit = 1500;
         int bonus;
+
         if (deposit >= 1001) {
             bonus = deposit / 100;
         } else {
