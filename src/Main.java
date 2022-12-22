@@ -10,7 +10,7 @@ public class Main {
             bonus = 0;
         }
 
-        //int bonus = deposit >= 1001 ? deposit / 100 : 0;
+        //int bonus = deposit >= 1000 ? deposit / 100 : 0;
 
         int result = account + deposit + bonus;
 
